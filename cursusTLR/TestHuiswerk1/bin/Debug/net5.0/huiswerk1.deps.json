@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "huiswerk1/1.0.0": {
+        "runtime": {
+          "huiswerk1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "huiswerk1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

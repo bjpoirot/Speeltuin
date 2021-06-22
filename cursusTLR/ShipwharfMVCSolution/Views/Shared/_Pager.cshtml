@@ -1,0 +1,17 @@
+﻿@model PagedViewModelBase
+
+<div>
+    @if (Model.PageNumber > 1)
+    {
+        <a asp-action="Index" asp-route-pagenumber="@(Model.PageNumber-1)">&lt;</a>
+    }
+
+    @for (int i = 1; i < Model.TotalPages + 1; i++)
+    {
+        <a asp-action="Index" asp-route-pagenumber="@i">@i</a>
+    }
+    @if (Model.PageNumber < Model.TotalPages)
+    {
+        <a asp-action="Index" asp-route-pagenumber="@(Model.PageNumber + 1)">&gt;</a>
+    }
+</div>

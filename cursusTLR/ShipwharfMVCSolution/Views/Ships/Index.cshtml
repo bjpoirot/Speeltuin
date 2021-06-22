@@ -1,0 +1,55 @@
+﻿@model PagedViewModel<ShipPageListItemViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Items.FirstOrDefault().Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Items.FirstOrDefault().Hold)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Items.FirstOrDefault().EuNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Items.FirstOrDefault().Type)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var ship in Model.Items) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => ship.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ship.Hold)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ship.EuNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ship.Type)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@ship.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@ship.Id" asp-route-aapje="@ship.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@ship.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<partial name="_Pager" model="@Model" />

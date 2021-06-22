@@ -1,0 +1,12 @@
+C:\Code\cursusTLR\BlazorShipWarf\Shared\bin\Debug\net5.0\BlazorShipWarf.Shared.deps.json
+C:\Code\cursusTLR\BlazorShipWarf\Shared\bin\Debug\net5.0\BlazorShipWarf.Shared.dll
+C:\Code\cursusTLR\BlazorShipWarf\Shared\bin\Debug\net5.0\ref\BlazorShipWarf.Shared.dll
+C:\Code\cursusTLR\BlazorShipWarf\Shared\bin\Debug\net5.0\BlazorShipWarf.Shared.pdb
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.csprojAssemblyReference.cache
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.AssemblyInfoInputs.cache
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.AssemblyInfo.cs
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.csproj.CoreCompileInputs.cache
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.dll
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\ref\BlazorShipWarf.Shared.dll
+C:\Code\cursusTLR\BlazorShipWarf\Shared\obj\Debug\net5.0\BlazorShipWarf.Shared.pdb

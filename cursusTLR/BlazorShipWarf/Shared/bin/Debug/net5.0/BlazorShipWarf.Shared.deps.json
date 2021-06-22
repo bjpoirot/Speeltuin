@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BlazorShipWarf.Shared/1.0.0": {
+        "runtime": {
+          "BlazorShipWarf.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorShipWarf.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

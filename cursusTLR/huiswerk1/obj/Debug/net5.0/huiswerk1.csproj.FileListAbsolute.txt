@@ -1,0 +1,16 @@
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\huiswerk1.exe
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\huiswerk1.deps.json
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\huiswerk1.runtimeconfig.json
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\huiswerk1.runtimeconfig.dev.json
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\huiswerk1.dll
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\ref\huiswerk1.dll
+C:\Code\cursusTLR\huiswerk1\bin\Debug\net5.0\huiswerk1.pdb
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.csprojAssemblyReference.cache
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.AssemblyInfoInputs.cache
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.AssemblyInfo.cs
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.csproj.CoreCompileInputs.cache
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.dll
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\ref\huiswerk1.dll
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.pdb
+C:\Code\cursusTLR\huiswerk1\obj\Debug\net5.0\huiswerk1.genruntimeconfig.cache
