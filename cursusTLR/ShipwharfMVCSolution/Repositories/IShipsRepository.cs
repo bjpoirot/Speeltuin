@@ -12,6 +12,7 @@ namespace ShipwharfMVCSolution.Repositories
         Task<ShipDetailsViewModel> GetShipDetails(Guid id);
         Task<int> GetNumberOfShips();
         Task<IReadOnlyCollection<ShipPageListItemViewModel>> GetShips(int skip, int take);
+        Task<UpdateShipViewModel> Create(UpdateShipViewModel ship);
 
     }
 }

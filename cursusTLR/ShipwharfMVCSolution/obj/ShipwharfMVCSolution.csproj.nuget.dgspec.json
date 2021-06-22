@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj": {}
+    "C:\\Code\\speeltuin\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj": {}
   },
   "projects": {
-    "C:\\Code\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj": {
+    "C:\\Code\\speeltuin\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj",
+        "projectUniqueName": "C:\\Code\\speeltuin\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj",
         "projectName": "ShipwharfMVCSolution",
-        "projectPath": "C:\\Code\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj",
+        "projectPath": "C:\\Code\\speeltuin\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj",
         "packagesPath": "C:\\Users\\bjpoirot\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\cursusTLR\\ShipwharfMVCSolution\\obj\\",
+        "outputPath": "C:\\Code\\speeltuin\\cursusTLR\\ShipwharfMVCSolution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

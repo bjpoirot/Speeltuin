@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uibvwoX6lp+AZ86J7R2wFwsOM275snLeLU/xTSz4bkx/Nt41hVx+NN8bleYDVoqIfyHXZroa9Mmop43f8M+sAA==",
+  "dgSpecHash": "LpnW1VJEmXKUqzRakzzhzDlxAGYjyEoRassCtFFL/nUUJ0lPet1jWbUUeYCLF62PBSntmv52o/v+LXqDmNN5MQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj",
+  "projectFilePath": "C:\\Code\\speeltuin\\cursusTLR\\ShipwharfMVCSolution\\ShipwharfMVCSolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bjpoirot\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\bjpoirot\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",

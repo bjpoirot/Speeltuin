@@ -17,15 +17,18 @@ namespace ShipwharfMVCSolution.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IShipsRepository _shipsRepository;
+        private readonly IShipTypesRepository _shipTypesRepository;
 
         public ShipsController(ApplicationDbContext context,
             UserManager<IdentityUser> userManager,
-            IShipsRepository shipsRepository
+            IShipsRepository shipsRepository,
+            IShipTypesRepository shipTypesRepository
             )
         {
             _context = context;
             _userManager = userManager;
             _shipsRepository = shipsRepository;
+            _shipTypesRepository = shipTypesRepository; 
         }
 
         //// GET: Ships
@@ -83,10 +86,13 @@ namespace ShipwharfMVCSolution.Controllers
         }
 
         // GET: Ships/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["ShipTypeId"] = new SelectList(_context.ShipTypes, "Id", "Id");
-            return View();
+            var shipTypes = await _shipTypesRepository.Get();
+            var createShipViewModel = new CreateShipViewModel(shipTypes);
+
+            // ViewData["ShipTypeId"] = new SelectList(_context.ShipTypes, "Id", "Id");
+            return View(createShipViewModel);
         }
 
         // POST: Ships/Create
@@ -94,17 +100,23 @@ namespace ShipwharfMVCSolution.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Hold,Name,ShipTypeId")] Ship ship)
+        public async Task<IActionResult> Create([Bind("Id,Hold,Name,ShipTypeId")] UpdateShipViewModel ship)
         {
             if (ModelState.IsValid)
             {
-                ship.Id = Guid.NewGuid();
-                _context.Add(ship);
-                await _context.SaveChangesAsync();
+                
+                await _shipsRepository.Create(ship);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ShipTypeId"] = new SelectList(_context.ShipTypes, "Id", "Id", ship.ShipTypeId);
-            return View(ship);
+
+            var shipTypes = await _shipTypesRepository.Get();
+            var createShipViewModel = new CreateShipViewModel(shipTypes);
+            createShipViewModel.Id = ship.Id;
+            createShipViewModel.Hold = ship.Hold;
+            createShipViewModel.EuNumber = ship.EuNumber;
+            createShipViewModel.ShipTypeId = ship.ShipTypeId;
+            createShipViewModel.Name = ship.Name;
+            return View(createShipViewModel);
         }
 
         // GET: Ships/Edit/5

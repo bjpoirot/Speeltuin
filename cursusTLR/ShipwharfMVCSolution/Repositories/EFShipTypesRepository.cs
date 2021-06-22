@@ -16,6 +16,13 @@ namespace ShipwharfMVCSolution.Repositories
             _context = context;
         }
 
+        public async Task<ICollection<ShipType>> Get()
+        {
+            var shiptypes = await _context.ShipTypes.ToListAsync();
+
+            return shiptypes;
+        }
+
 
         public async Task<int> GetNumberOfShipTypes()
         {

@@ -9,6 +9,7 @@ namespace ShipwharfMVCSolution.Repositories
 {
     public interface IShipTypesRepository
     {
+        Task<ICollection<ShipType>> Get();
         Task<int> GetNumberOfShipTypes();
         Task<IReadOnlyCollection<ShipTypePageListItemViewModel>> GetShipTypes(int skip, int take);
 

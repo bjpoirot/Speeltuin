@@ -51,5 +51,26 @@ namespace ShipwharfMVCSolution.Repositories
                 }).ToListAsync();
             return ships;
         }
+
+        public async Task<UpdateShipViewModel> Create(UpdateShipViewModel shipViewModel)
+        {
+
+            var ship = new Ship()
+            {
+                Id = Guid.NewGuid(),
+                EuNumber = shipViewModel.EuNumber,
+                Hold = shipViewModel.Hold,
+                Name = shipViewModel.Name,
+                ShipTypeId = shipViewModel.ShipTypeId
+            };
+
+            _context.Ships.Add(ship);
+            await _context.SaveChangesAsync();
+
+            shipViewModel.Id = ship.Id;
+
+            return shipViewModel;
+
+        }
     }
 }

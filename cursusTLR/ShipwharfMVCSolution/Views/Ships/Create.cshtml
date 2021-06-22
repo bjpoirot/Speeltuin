@@ -1,4 +1,4 @@
-﻿@model ShipwharfMVCSolution.Data.Ship
+﻿@model ShipwharfMVCSolution.Models.CreateShipViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -23,8 +23,13 @@
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="EuNumber" class="control-label"></label>
+                <input asp-for="EuNumber" class="form-control" />
+                <span asp-validation-for="EuNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="ShipTypeId" class="control-label"></label>
-                <select asp-for="ShipTypeId" class ="form-control" asp-items="ViewBag.ShipTypeId"></select>
+                <select asp-for="ShipTypeId" class="form-control" asp-items="Model.ShipTypesSelectList"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
