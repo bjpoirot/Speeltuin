@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeaOfLifeUI", "GameOfLifeUI\SeaOfLifeUI.csproj", "{A2849665-5C23-43E6-B35A-AE493D0DD192}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{38DFD563-7C1F-4A45-8717-9E6E0B57A745}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2849665-5C23-43E6-B35A-AE493D0DD192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2849665-5C23-43E6-B35A-AE493D0DD192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2849665-5C23-43E6-B35A-AE493D0DD192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2849665-5C23-43E6-B35A-AE493D0DD192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DFD563-7C1F-4A45-8717-9E6E0B57A745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DFD563-7C1F-4A45-8717-9E6E0B57A745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DFD563-7C1F-4A45-8717-9E6E0B57A745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DFD563-7C1F-4A45-8717-9E6E0B57A745}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88E1BD22-1DD5-4800-8427-442C65455E5F}
+	EndGlobalSection
+EndGlobal
