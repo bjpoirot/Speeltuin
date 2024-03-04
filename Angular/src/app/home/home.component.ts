@@ -8,13 +8,19 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomeComponent implements OnInit {
   htmlPage: string;
-
+  name: string;
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
     this.http.get<string>('http://www.nu.nl').subscribe(
       response => this.htmlPage = response
     );
+  }
+
+  getName(name?: string) {
+    if(name !== '') {
+      this.name = name;
+    }
   }
 
 }
